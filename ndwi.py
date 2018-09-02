@@ -1,9 +1,11 @@
-'''This script is written based on Landsat 8 data (OLI).
+'''
+This script is written based on Landsat 8 data (OLI).
 b2, b5 represents sequentially GREEN and SWIR.
 All given paths are pre-defined, to make this program exicute, need to change path for source and destination
-This code was written based on rasterio documentation and few live effective examples from Open Source community'''
+This code was written based on rasterio documentation and few live effective examples from Open Source community.
+'''
 
-## IMOPRT LIBRARY
+## IMPORT LIBRARY
 import rasterio
 import numpy
 
